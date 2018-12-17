@@ -17,7 +17,7 @@ cache:
 
 branches:
   only:
-    - master
+    - test-1111
 
 before_install:
   - sudo chown -R "$USER" "$(brew --repo)"
