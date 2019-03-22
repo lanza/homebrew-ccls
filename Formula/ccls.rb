@@ -3,8 +3,8 @@ class Ccls < Formula
   homepage "https://github.com/MaskRay/ccls"
   if MacOS.version <= :el_capitan
     url "https://github.com/MaskRay/ccls.git",
-        :tag => "0.20181225.8",
-        :revision => "d275ed570d7ea26dd8d762b8d82bc4e295971154"
+        :tag => "0.20190314",
+        :revision => "b7d9ced086af30484ac27f4ae6c3087aa21fa83f"
   else
     url "https://github.com/MaskRay/ccls.git",
         :tag => "0.20190301",
