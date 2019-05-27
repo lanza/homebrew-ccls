@@ -2,8 +2,7 @@ class Ccls < Formula
   desc "C/C++ language server"
   homepage "https://github.com/MaskRay/ccls"
   url "https://github.com/MaskRay/ccls.git",
-      :tag => "0.20190314",
-      :revision => "b7d9ced086af30484ac27f4ae6c3087aa21fa83f"
+      :revision => "d3808de26ac00b36263aac73d8f64432472dff88"
   head "https://github.com/MaskRay/ccls.git"
 
   option "with-build-debug", "Configures ccls to be built in debug mode"
